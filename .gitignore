@@ -9,6 +9,9 @@ node_modules/
 .DS_Store
 **/.DS_Store
 
+# Firebase deploy cache
+quizzard_app/.firebase/
+
 # Flutter / Dart build artifacts
 quizzard_app/build/
 quizzard_app/.dart_tool/

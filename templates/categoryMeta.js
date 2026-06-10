@@ -43,6 +43,17 @@ const categoryMeta = {
   "Arts & Literature": { imageUrl: "assets/categories/arts.jpg", order: 34 },
   "Society & Culture": { imageUrl: "assets/categories/society.jpg", order: 35 },
   "Food & Drink": { imageUrl: "assets/categories/food.jpg", order: 36 },
+  // Additional OpenTDB categories
+  "Anime & Manga": { imageUrl: "assets/categories/anime.jpg", order: 37 },
+  Comics: { imageUrl: "assets/categories/comics.jpg", order: 38 },
+  Cartoons: { imageUrl: "assets/categories/cartoons.jpg", order: 39 },
+  "Board Games": { imageUrl: "assets/categories/board_games.jpg", order: 40 },
+  Vehicles: { imageUrl: "assets/categories/vehicles.jpg", order: 41 },
+  Gadgets: { imageUrl: "assets/categories/gadgets.jpg", order: 42 },
+  Celebrities: { imageUrl: "assets/categories/celebrities.jpg", order: 43 },
+  Mathematics: { imageUrl: "assets/categories/mathematics.jpg", order: 44 },
+  Politics: { imageUrl: "assets/categories/politics.jpg", order: 45 },
+  Books: { imageUrl: "assets/categories/books.jpg", order: 46 },
 };
 
 module.exports = { categoryMeta };
