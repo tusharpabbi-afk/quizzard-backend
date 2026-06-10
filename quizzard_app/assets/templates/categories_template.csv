@@ -1,0 +1,4 @@
+category,level,orderIndex,isActive,imageUrl
+Sports,easy,1,true,
+Movies,medium,2,true,https://example.com/movies.jpg
+Science,hard,3,false,

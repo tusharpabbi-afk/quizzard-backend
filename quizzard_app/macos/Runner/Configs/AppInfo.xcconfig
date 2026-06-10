@@ -7,8 +7,11 @@
 // The application's name. By default this is also the title of the Flutter window.
 PRODUCT_NAME = quizzard_app
 
+// Include CocoaPods config to silence integration warnings.
+#include? "Pods/Target Support Files/Pods-Runner/Pods-Runner.$(CONFIGURATION).xcconfig"
+
 // The application's bundle identifier
-PRODUCT_BUNDLE_IDENTIFIER = com.example.quizzardApp
+PRODUCT_BUNDLE_IDENTIFIER = com.stabcorp.quizzard
 
 // The copyright displayed in application information
 PRODUCT_COPYRIGHT = Copyright © 2026 com.example. All rights reserved.

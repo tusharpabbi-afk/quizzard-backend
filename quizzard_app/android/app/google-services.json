@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "803131178140",
+    "project_id": "quizzard-e1340",
+    "storage_bucket": "quizzard-e1340.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:803131178140:android:218e3acc9619e9eaa68159",
+        "android_client_info": {
+          "package_name": "com.example.quizzard_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDusIF5LGqA9MwUyXXc0D6koL6Wr5hnjUE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:803131178140:android:a5ff464d401fdedca68159",
+        "android_client_info": {
+          "package_name": "com.stabcorp.quizzard"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDusIF5LGqA9MwUyXXc0D6koL6Wr5hnjUE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

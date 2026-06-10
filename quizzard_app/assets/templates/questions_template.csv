@@ -1,0 +1,4 @@
+category,level,question,option1,option2,option3,option4,correctAnswer,trivia,mediaUrl,mediaType,xpReward,timeLimit,isActive
+Sports,easy,Which sport uses a bat and ball?,Cricket,Football,Tennis,Hockey,Cricket,Bat-and-ball game.,,text,20,12,true
+Movies,medium,Who directed Inception?,Christopher Nolan,Steven Spielberg,James Cameron,Martin Scorsese,Christopher Nolan,Released in 2010.,,text,40,10,true
+Science,hard,What is the chemical symbol for gold?,Au,Ag,Fe,Go,Au,From Latin aurum.,,text,80,8,true

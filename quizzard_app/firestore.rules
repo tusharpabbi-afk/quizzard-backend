@@ -1,0 +1,36 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function isAdmin() {
+      return request.auth != null &&
+        exists(/databases/$(database)/documents/admins/$(request.auth.uid));
+    }
+
+    match /categories/{categoryId} {
+      allow read: if true;
+      allow write: if isAdmin();
+
+      match /questions/{questionId} {
+        allow read: if true;
+        allow write: if isAdmin();
+      }
+    }
+
+    match /admins/{uid} {
+      allow read: if request.auth != null && request.auth.uid == uid;
+      allow write: if isAdmin();
+    }
+
+    match /users/{uid} {
+      // Any signed-in player can read profiles (needed for the leaderboard);
+      // you can still only write your own.
+      allow read: if request.auth != null;
+      allow write: if request.auth != null && request.auth.uid == uid;
+    }
+
+    // 1v1 multiplayer matches: any signed-in player can read/join/update/create.
+    match /matches/{matchId} {
+      allow read, create, update, delete: if request.auth != null;
+    }
+  }
+}

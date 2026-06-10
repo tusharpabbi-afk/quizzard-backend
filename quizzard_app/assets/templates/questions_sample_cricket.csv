@@ -1,0 +1,5 @@
+category,level,question,option1,option2,option3,option4,correctAnswer,trivia,mediaUrl,mediaType,xpReward,timeLimit,isActive
+Cricket,easy,Who won the 2011 Cricket World Cup?,India,Australia,England,South Africa,India,Final was held in Mumbai.,,text,20,12,true
+Cricket,easy,How many players are on the fielding side?,11,10,9,12,11,Standard cricket team size.,,text,20,12,true
+Cricket,medium,Who has the highest individual score in ODI cricket?,Rohit Sharma,Sachin Tendulkar,Chris Gayle,Virat Kohli,Rohit Sharma,264 runs vs Sri Lanka.,,text,40,10,true
+Cricket,hard,Which bowler has the most wickets in Test cricket?,Muttiah Muralitharan,Shane Warne,Anil Kumble,James Anderson,Muttiah Muralitharan,800 Test wickets.,,text,80,8,true

@@ -1,0 +1,63 @@
+{
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  },
+  "firestore": {
+    "database": "(default)",
+    "location": "asia-south1",
+    "rules": "firestore.rules",
+    "indexes": "y"
+  },
+  "storage": {
+    "rules": "storage.rules"
+  },
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "quizzard-e1340",
+          "appId": "1:803131178140:android:a5ff464d401fdedca68159",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "ios": {
+        "default": {
+          "projectId": "quizzard-e1340",
+          "appId": "1:803131178140:ios:f7a5c9c3275a503aa68159",
+          "uploadDebugSymbols": false,
+          "fileOutput": "ios/Runner/GoogleService-Info.plist"
+        }
+      },
+      "macos": {
+        "default": {
+          "projectId": "quizzard-e1340",
+          "appId": "1:803131178140:ios:f7a5c9c3275a503aa68159",
+          "uploadDebugSymbols": false,
+          "fileOutput": "macos/Runner/GoogleService-Info.plist"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "quizzard-e1340",
+          "configurations": {
+            "android": "1:803131178140:android:a5ff464d401fdedca68159",
+            "ios": "1:803131178140:ios:f7a5c9c3275a503aa68159",
+            "macos": "1:803131178140:ios:f7a5c9c3275a503aa68159",
+            "web": "1:803131178140:web:be12acc3edc9aaa5a68159"
+          }
+        }
+      }
+    }
+  }
+}

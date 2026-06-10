@@ -1,0 +1,4 @@
+category,level,question,option1,option2,option3,option4,correctAnswer,trivia,mediaUrl,mediaType,xpReward,timeLimit,isActive
+India,easy,What is the capital of India?,New Delhi,Mumbai,Kolkata,Chennai,New Delhi,Capital city of India.,,text,20,12,true
+World,medium,Which country has the largest area?,Russia,Canada,China,USA,Russia,Largest by area.,,text,40,10,true
+Asia,hard,Which of these countries is landlocked?,Mongolia,Japan,Philippines,Indonesia,Mongolia,Landlocked in East/Central Asia.,,text,80,8,true
