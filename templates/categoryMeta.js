@@ -60,6 +60,9 @@ const categoryMeta = {
   "Cricket Stats": { imageUrl: "assets/categories/cricket.jpg", order: 0.7 },
   Mumbai: { imageUrl: "assets/categories/mumbai.jpg", order: 0.8 },
   Lucknow: { imageUrl: "assets/categories/lucknow.jpg", order: 0.9 },
+  Delhi: { imageUrl: "assets/categories/delhi.jpg", order: 0.81 },
+  Kolkata: { imageUrl: "assets/categories/kolkata.jpg", order: 0.82 },
+  Hyderabad: { imageUrl: "assets/categories/hyderabad.jpg", order: 0.83 },
   "Indian TV & Web Series": { imageUrl: "assets/categories/tv.jpg", order: 6.6 },
 };
 

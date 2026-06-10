@@ -65,6 +65,26 @@ const INDIA = [
   { q: "The Brihadeeswarar (Big) Temple built by the Cholas stands in which city?", correct: "Thanjavur", wrong: ["Madurai", "Kanchipuram", "Mysuru"], level: "hard" },
   { q: "What is India's national aquatic animal?", correct: "Ganges River Dolphin", wrong: ["Olive Ridley Turtle", "Indian Otter", "Gharial"], level: "hard" },
   { q: "Which is India's national river?", correct: "Ganga", wrong: ["Yamuna", "Narmada", "Kaveri"], level: "medium" },
+
+  // ---- Batch 2: symbols, history, geography ----
+  { q: "Which festival is celebrated as the 'festival of lights' in India?", correct: "Diwali", wrong: ["Holi", "Eid", "Pongal"], level: "easy" },
+  { q: "Holi is popularly known as the festival of what?", correct: "Colours", wrong: ["Lights", "Harvest", "Lanterns"], level: "easy" },
+  { q: "Who was India's first woman Prime Minister?", correct: "Indira Gandhi", wrong: ["Sonia Gandhi", "Pratibha Patil", "Sarojini Naidu"], level: "easy" },
+  { q: "Which is the highest civilian honour in India?", correct: "Bharat Ratna", wrong: ["Padma Vibhushan", "Param Vir Chakra", "Padma Bhushan"], level: "medium" },
+  { q: "The wheel at the centre of the Indian flag is called the what?", correct: "Ashoka Chakra", wrong: ["Dharma Wheel", "Sudarshan Chakra", "Konark Wheel"], level: "medium" },
+  { q: "How many spokes does the Ashoka Chakra on the Indian flag have?", correct: "24", wrong: ["12", "32", "16"], level: "hard" },
+  { q: "Which Mauryan emperor embraced Buddhism after the bloody Kalinga war?", correct: "Ashoka", wrong: ["Chandragupta Maurya", "Bindusara", "Harsha"], level: "medium" },
+  { q: "The Quit India Movement was launched in which year?", correct: "1942", wrong: ["1930", "1947", "1919"], level: "medium" },
+  { q: "Mahatma Gandhi led the famous Salt March (Dandi March) in which year?", correct: "1930", wrong: ["1922", "1942", "1919"], level: "hard" },
+  { q: "Who was independent India's first Deputy Prime Minister, known as the 'Iron Man'?", correct: "Sardar Vallabhbhai Patel", wrong: ["B. R. Ambedkar", "Maulana Azad", "Rajendra Prasad"], level: "medium" },
+  { q: "Indian Standard Time (IST) is ahead of GMT by how much?", correct: "5 hours 30 minutes", wrong: ["5 hours", "6 hours", "4 hours 30 minutes"], level: "medium" },
+  { q: "The Wagah border ceremony takes place between India and which country?", correct: "Pakistan", wrong: ["Bangladesh", "Nepal", "China"], level: "medium" },
+  { q: "Kaziranga National Park, home of the one-horned rhinoceros, is in which state?", correct: "Assam", wrong: ["West Bengal", "Odisha", "Bihar"], level: "medium" },
+  { q: "The Gir Forest, the last refuge of the Asiatic lion, is in which state?", correct: "Gujarat", wrong: ["Rajasthan", "Madhya Pradesh", "Maharashtra"], level: "medium" },
+  { q: "India's national emblem is adapted from the Lion Capital of Ashoka found at which site?", correct: "Sarnath", wrong: ["Sanchi", "Bodh Gaya", "Nalanda"], level: "hard" },
+  { q: "The Reserve Bank of India (RBI) was established in which year?", correct: "1935", wrong: ["1947", "1950", "1921"], level: "hard" },
+  { q: "The ancient city of Mohenjo-daro of the Indus Valley Civilization is located in present-day which country?", correct: "Pakistan", wrong: ["India", "Afghanistan", "Iran"], level: "hard" },
+  { q: "India's highest wartime military gallantry award is the what?", correct: "Param Vir Chakra", wrong: ["Ashoka Chakra", "Vir Chakra", "Shaurya Chakra"], level: "hard" },
 ];
 
 const MUMBAI = [

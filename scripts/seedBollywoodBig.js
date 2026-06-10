@@ -101,6 +101,32 @@ const Q = [
   { q: "In Mughal-e-Azam, Emperor Akbar was played by which actor?", correct: "Prithviraj Kapoor", wrong: ["Dilip Kumar", "Raj Kapoor", "Ashok Kumar"], level: "hard" },
   { q: "Filmmaker Satyajit Ray received an Honorary Academy Award in which year, shortly before his death?", correct: "1992", wrong: ["1985", "1990", "1995"], level: "hard" },
   { q: "Vidya Balan portrayed which actress in the biographical film 'The Dirty Picture'?", correct: "Silk Smitha (inspired by)", wrong: ["Helen", "Parveen Babi", "Madhubala"], level: "hard" },
+
+  // ---- Batch 2: more films, actors, songs ----
+  { q: "Which superstar headlined the 2023 blockbusters 'Pathaan' and 'Jawan'?", correct: "Shah Rukh Khan", wrong: ["Salman Khan", "Hrithik Roshan", "Ranveer Singh"], level: "easy" },
+  { q: "Who plays the lead in the 2023 action film 'Animal'?", correct: "Ranbir Kapoor", wrong: ["Ranveer Singh", "Vicky Kaushal", "Shahid Kapoor"], level: "medium" },
+  { q: "The film 'Kabir Singh' (2019) stars which actor in the title role?", correct: "Shahid Kapoor", wrong: ["Ranbir Kapoor", "Arjun Kapoor", "Aditya Roy Kapur"], level: "easy" },
+  { q: "Who played the lead pair with Shah Rukh Khan in Dilwale Dulhania Le Jayenge?", correct: "Kajol", wrong: ["Rani Mukerji", "Madhuri Dixit", "Juhi Chawla"], level: "easy" },
+  { q: "Which actor played Veeru in Sholay?", correct: "Dharmendra", wrong: ["Amitabh Bachchan", "Vinod Khanna", "Shatrughan Sinha"], level: "medium" },
+  { q: "Sanjeev Kumar played the armless 'Thakur Baldev Singh' in which film?", correct: "Sholay", wrong: ["Deewaar", "Trishul", "Khoon Pasina"], level: "hard" },
+  { q: "Salman Khan's breakthrough lead role came in which 1989 romance?", correct: "Maine Pyar Kiya", wrong: ["Hum Aapke Hain Koun..!", "Saajan", "Patthar Ke Phool"], level: "medium" },
+  { q: "Aamir Khan's first lead role was in which 1988 romantic hit?", correct: "Qayamat Se Qayamat Tak", wrong: ["Dil", "Raja Hindustani", "Jo Jeeta Wohi Sikandar"], level: "hard" },
+  { q: "DDLJ (1995) was the directorial debut of whom?", correct: "Aditya Chopra", wrong: ["Karan Johar", "Yash Chopra", "Sooraj Barjatya"], level: "medium" },
+  { q: "Which 2012 film launched the careers of Alia Bhatt, Varun Dhawan and Sidharth Malhotra?", correct: "Student of the Year", wrong: ["2 States", "Humpty Sharma Ki Dulhania", "Kapoor & Sons"], level: "medium" },
+  { q: "In Padmaavat, Ranveer Singh played which menacing ruler?", correct: "Alauddin Khilji", wrong: ["Maharawal Ratan Singh", "Bajirao", "Khilji's general"], level: "medium" },
+  { q: "Who directed Zindagi Na Milegi Dobara (2011)?", correct: "Zoya Akhtar", wrong: ["Farhan Akhtar", "Reema Kagti", "Imtiaz Ali"], level: "medium" },
+  { q: "The villain Mogambo in Mr. India was played by which actor?", correct: "Amrish Puri", wrong: ["Amjad Khan", "Pran", "Kulbhushan Kharbanda"], level: "medium" },
+  { q: "Shah Rukh Khan played the title role in which 2002 Sanjay Leela Bhansali tragedy?", correct: "Devdas", wrong: ["Black", "Saawariya", "Guzaarish"], level: "medium" },
+  { q: "Which film won the 2023 National Film Award buzz with Vikrant Massey playing an IPS aspirant?", correct: "12th Fail", wrong: ["Sirf Ek Bandaa Kaafi Hai", "Article 15", "Super 30"], level: "hard" },
+  { q: "Ranbir Kapoor and Alia Bhatt starred together in which 2022 fantasy film?", correct: "Brahmastra", wrong: ["Shamshera", "Kalank", "Sadak 2"], level: "medium" },
+  { q: "Dharmendra's two actor sons are Sunny Deol and which other?", correct: "Bobby Deol", wrong: ["Abhay Deol", "Jeetendra", "Akshaye Khanna"], level: "medium" },
+  { q: 'The item song "Sheila Ki Jawani" is from which film?', correct: "Tees Maar Khan", wrong: ["Dabangg", "Wanted", "Ready"], level: "medium" },
+  { q: 'The song "Munni Badnaam Hui" is from which 2010 film?', correct: "Dabangg", wrong: ["Wanted", "Bodyguard", "Dabangg 2"], level: "medium" },
+  { q: 'The classic song "Mehbooba Mehbooba" appears in which film?', correct: "Sholay", wrong: ["Don", "Hum Kisise Kum Naheen", "Caravan"], level: "hard" },
+  { q: "Gully Boy was India's official entry to the Oscars for which year's ceremony?", correct: "2020", wrong: ["2019", "2021", "2018"], level: "hard" },
+  { q: "Kabhi Khushi Kabhie Gham (2001) was directed by whom?", correct: "Karan Johar", wrong: ["Aditya Chopra", "Sooraj Barjatya", "Sanjay Leela Bhansali"], level: "medium" },
+  { q: "Hum Aapke Hain Koun..! (1994) paired Salman Khan with which actress?", correct: "Madhuri Dixit", wrong: ["Sridevi", "Juhi Chawla", "Karisma Kapoor"], level: "medium" },
+  { q: "The comic villain 'Crime Master Gogo' in Andaz Apna Apna was played by whom?", correct: "Shakti Kapoor", wrong: ["Paresh Rawal", "Gulshan Grover", "Kader Khan"], level: "hard" },
 ];
 
 (async () => {

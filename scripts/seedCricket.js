@@ -75,6 +75,28 @@ const CRICKET = [
   { q: "Sachin Tendulkar made his international debut in 1989 against which country?", correct: "Pakistan", wrong: ["Australia", "England", "Sri Lanka"], level: "hard" },
   { q: "Who scored the first century in IPL history (158 not out in 2008)?", correct: "Brendon McCullum", wrong: ["Virender Sehwag", "Chris Gayle", "Adam Gilchrist"], level: "hard" },
   { q: "The supporters' group known as the 'Barmy Army' follow which national cricket team?", correct: "England", wrong: ["Australia", "India", "South Africa"], level: "hard" },
+
+  // ---- Batch 2 ----
+  { q: "Which Indian opener is nicknamed the 'Hitman'?", correct: "Rohit Sharma", wrong: ["Shikhar Dhawan", "KL Rahul", "Virender Sehwag"], level: "easy" },
+  { q: "How many innings does each team get in a standard Test match?", correct: "2", wrong: ["1", "3", "4"], level: "easy" },
+  { q: "Taking five wickets in a single innings is informally called a what?", correct: "Five-for (fifer)", wrong: ["Nelson", "Hat-trick", "Maiden"], level: "medium" },
+  { q: "The 'third umpire' makes decisions using what?", correct: "Television replays", wrong: ["A coin toss", "Player votes", "The scorecard"], level: "easy" },
+  { q: "Brian Lara and Chris Gayle both played international cricket for which team?", correct: "West Indies", wrong: ["England", "South Africa", "Australia"], level: "easy" },
+  { q: "The pitch between the two sets of stumps measures how many yards?", correct: "22", wrong: ["20", "24", "18"], level: "medium" },
+  { q: "Which legendary Indian opener is nicknamed the 'Little Master'?", correct: "Sunil Gavaskar", wrong: ["Gundappa Viswanath", "Mohinder Amarnath", "Dilip Vengsarkar"], level: "medium" },
+  { q: "Eden Gardens, one of cricket's iconic stadiums, is located in which Indian city?", correct: "Kolkata", wrong: ["Mumbai", "Chennai", "Delhi"], level: "medium" },
+  { q: "Shane Warne, one of the greatest bowlers ever, was a master of which craft?", correct: "Leg-spin", wrong: ["Fast bowling", "Off-spin", "Swing bowling"], level: "medium" },
+  { q: "Which country won the 2019 ODI World Cup in a dramatic final decided on boundary count?", correct: "England", wrong: ["New Zealand", "Australia", "India"], level: "medium" },
+  { q: "The 2019 World Cup final was contested between England and which team?", correct: "New Zealand", wrong: ["Australia", "India", "South Africa"], level: "hard" },
+  { q: "Which country won the 2023 ODI World Cup, held in India?", correct: "Australia", wrong: ["India", "New Zealand", "South Africa"], level: "medium" },
+  { q: "Pakistan's fast bowler Shoaib Akhtar was nicknamed the what?", correct: "Rawalpindi Express", wrong: ["Sultan of Swing", "Karachi King", "Lahore Lightning"], level: "hard" },
+  { q: "'Mankading' refers to running out which player?", correct: "The non-striker", wrong: ["The striker", "The wicketkeeper", "A fielder"], level: "hard" },
+  { q: "Adam Gilchrist, a record-setting wicketkeeper-batsman, played for which country?", correct: "Australia", wrong: ["England", "South Africa", "New Zealand"], level: "hard" },
+  { q: "The Wankhede Stadium, venue of the 2011 World Cup final, is in which city?", correct: "Mumbai", wrong: ["Delhi", "Chennai", "Pune"], level: "medium" },
+  { q: "In limited-overs cricket, the 'powerplay' restricts the number of fielders allowed where?", correct: "Outside the inner circle", wrong: ["Behind the wicket", "On the leg side", "In the slips"], level: "medium" },
+  { q: "AB de Villiers, nicknamed 'Mr. 360', represented which country?", correct: "South Africa", wrong: ["Australia", "England", "West Indies"], level: "medium" },
+  { q: "The famous Melbourne Cricket Ground (MCG) is located in which country?", correct: "Australia", wrong: ["England", "New Zealand", "South Africa"], level: "easy" },
+  { q: "Sachin Tendulkar played his farewell Test match in 2013 at which stadium?", correct: "Wankhede Stadium", wrong: ["Eden Gardens", "Feroz Shah Kotla", "M. Chinnaswamy"], level: "hard" },
 ];
 
 const STATS = [
